@@ -1,0 +1,29 @@
+{
+  "name": "ari-electron-calculator",
+  "version": "0.0.1",
+  "description": "A calculator app made with electronjs, Typescript and React",
+  "keywords": [
+    "React",
+    "Electron",
+    "Typescript",
+    "Calculator"
+  ],
+  "homepage": "https://github.com/zelanko/ari-electron-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/zelanko/ari-electron-calculator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zelanko/ari-electron-calculator.git"
+  },
+  "license": "Unlicense",
+  "author": "Ari Zelanko",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "39.2.1"
+  }
+}
