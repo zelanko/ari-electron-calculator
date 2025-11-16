@@ -21,9 +21,12 @@
   "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "run": "dist/index.js"
   },
   "devDependencies": {
-    "electron": "39.2.1"
+    "electron": "39.2.1",
+    "typescript": "^5.9.3"
   }
 }
