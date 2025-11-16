@@ -23,7 +23,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "run": "dist/index.js"
+    "start": "npm run build && electron ."
   },
   "devDependencies": {
     "electron": "39.2.1",
